@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react';
 export const ShopContext = createContext();
 
 const StorageHome = ({ children, ...props }) => {
-    console.log("Context Data in StorageHome:", props); 
+    // console.log("Context Data in StorageHome:", props); 
 
     const [isTrue, setisTrue] = useState(false);
 

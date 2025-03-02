@@ -58,7 +58,7 @@ const Search = () => {
           {/* Search Results */}
           {filteredData.length > 0 && (
             <div className="absolute top-full left-0 w-full bg-white border border-gray-300 rounded-lg mt-1 z-10">
-              <ul className="h-auto overflow-auto">
+              <ul className="max-h-80 h-auto overflow-auto">
                 
                 {filteredData.map((user) => (
                   <li key={user.id} className="border-b p-2 hover:bg-gray-100">

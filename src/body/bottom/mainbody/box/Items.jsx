@@ -2,6 +2,7 @@ import React from 'react';
 import './Items.css';
 
 const Items = ({ image, name, price }) => {
+    console.log(name,price)
     return (
         <div className='item p-4'>
             <img src={image} alt={name} />

@@ -36,7 +36,7 @@ const Left = () => {
           showHamburger ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       />
-      <div className="ml-5 font-bold text-lg">LOGO</div>
+      <div className="ml-5 font-bold text-lg cursor-pointer">LOGO</div>
     </div>
   );
 };

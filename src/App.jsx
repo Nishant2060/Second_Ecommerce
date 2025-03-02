@@ -16,7 +16,7 @@ const App = () => {
         <Nav/>
             <Body />
             <Routes>
-              <Route path="/" element={<Items />} />
+              <Route path="/" element={<ShopCategory />} />
               <Route path="/:category" element={<ShopCategory />} />
             </Routes>
             <Footer />
